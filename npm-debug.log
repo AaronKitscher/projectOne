@@ -1,0 +1,45 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'readline-sync' ]
+info using npm@1.1.0-beta-4
+info using node@v0.6.6
+verbose config file /Users/Kluge2/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose into /Users/Kluge2/Proglogic/projectOne [ 'readline-sync' ]
+verbose cache add readline-sync
+verbose cache add [ 'readline-sync', null ]
+silly cache add: name, spec, args [ undefined, 'readline-sync', [ 'readline-sync', null ] ]
+verbose parsed url { pathname: 'readline-sync',
+verbose parsed url   path: 'readline-sync',
+verbose parsed url   href: 'readline-sync' }
+verbose addNamed [ 'readline-sync', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'readline-sync', '', false ]
+verbose raw, before any munging readline-sync
+verbose url resolving [ 'https://registry.npmjs.org/', './readline-sync' ]
+verbose url resolved https://registry.npmjs.org/readline-sync
+http GET https://registry.npmjs.org/readline-sync
+silly get cb [ 304, undefined ]
+ERR! Error: failed to fetch from registry: readline-sync
+ERR!     at /usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:32:9)
+ERR!     at Request._callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:137:18)
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:104:22)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:181:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:329:14)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1225:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 16.0.0
+ERR! command "node" "/usr/local/bin/npm" "install" "readline-sync"
+ERR! cwd /Users/Kluge2/Proglogic/projectOne
+ERR! node -v v0.6.6
+ERR! npm -v 1.1.0-beta-4
+ERR! message failed to fetch from registry: readline-sync
+verbose exit [ 1, true ]
